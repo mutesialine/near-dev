@@ -1,17 +1,17 @@
 import Subtitle from "../layout/Subtitle";
 import Title from "../layout/Title";
-export default function Complete(){
+export default function Complete() {
   return (
     <div className=" mx-auto flex flex-col font-secondary ">
       <div className="w-eigthyeight mx-auto flex justify-center">
         <img
           className=" hidden lg:block w-40 h-32 items-center"
-          src="/icons/line.svg"
+          src="/Icons/line.svg"
         />
       </div>
 
       <div className="flex mt-16 lg:mt-0 flex-col lg:flex-row justify-between items-center w-eigthyeight mx-auto">
-        <img className=" w-3/5 lg:w-1/3" src="/icons/circleallow.svg" />
+        <img className=" w-3/5 lg:w-1/3" src="/Icons/circleallow.svg" />
 
         <div className="flex flex-col items-center lg:items-start  pt-10 lg:pt-0 gap-3 w-4/5 lg:w-1/2">
           <Title heading="Complete the course" />

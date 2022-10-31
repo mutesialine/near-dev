@@ -1,7 +1,7 @@
 import Subtitle from "../layout/Subtitle";
 import Title from "../layout/Title";
 
-export default function Hero(){
+export default function Hero() {
   return (
     <div className=" relative w-4/5 px-6 lg:w-eigthyeigh  mx-auto pt-80 lg:pt-44 pb-16 flex flex-col  justify-center items-center font-primary">
       <div className="block lg:hidden bg-backgroundone  absolute w-full h-[600px] -top-80"></div>
@@ -19,7 +19,7 @@ export default function Hero(){
         within the NEAR ecosystem."
       </div>
       <div>
-        <img src="/icons/circle-down.svg" />
+        <img src="/Icons/circle-down.svg" />
       </div>
       <div className="mt-16 text-center">
         <h2 className="text-5xl font-medium text-primary  leading-15">
